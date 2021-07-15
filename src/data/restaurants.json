@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Secret Chow",
+    "address": "31 Beeches Road, West Bromwich",
+    "postCode": "B70 6QE",
+    "phoneNumber": "0121 048 6441",
+    "email": "louise@gmail.com",
+    "rating": 4.8,
+    "ratings": 4836,
+    "description": "Proin vel nunc pulvinar, volutpat tortor non, pretium libero. Maecenas sit amet ultricies sem, ac elementum justo. Proin id ex mattis, bibendum arcu sit amet, pharetra justo. Nulla volutpat nunc nisl. Vivamus et purus eu justo ultrices pharetra. Proin volutpat ex nec tellus pulvinar, et tincidunt purus aliquam. Proin aliquet libero eget justo feugiat, id euismod felis cursus. Sed hendrerit vel dolor a rutrum. Praesent accumsan eget ipsum eu tincidunt. Aenean eget enim volutpat, luctus arcu eu, pulvinar ante.",
+    "bannerUrl": "https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    "deliveryEstimate": "30-45 mins"
+  },
+  {
+    "name": "Hearty Kettle Eatery",
+    "address": "6 Hollywood Drive, Hollywood",
+    "postCode": "B47 5PS",
+    "phoneNumber": "0121 137 8028",
+    "email": "yamla@outlook.com",
+    "rating": 4.2,
+    "ratings": 3638,
+    "description": "Nullam ac dignissim nisi. Etiam lacinia venenatis ligula quis eleifend. Aenean vel erat nunc. Integer vel luctus eros, et rhoncus nulla. Curabitur dignissim sapien eget leo maximus luctus. Proin sollicitudin blandit nunc, sit amet ornare libero suscipit quis. Praesent non risus a quam accumsan mollis eget non metus.",
+    "bannerUrl": "https://images.unsplash.com/photo-1515669097368-22e68427d265?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    "deliveryEstimate": "30-45 mins"
+  },
+  {
+    "name": "Pearl Café",
+    "address": "5 Newbourne Hill, Alvechurch",
+    "postCode": "B48 7QN",
+    "phoneNumber": "01527 235747",
+    "email": "crobles@msn.com",
+    "rating": 3.7,
+    "ratings": 4606,
+    "description": "Donec iaculis tortor at mauris hendrerit, vitae maximus urna rhoncus. Vestibulum semper felis sit amet purus auctor, at blandit neque suscipit. Cras sit amet tincidunt justo. Aenean nec placerat augue, nec dignissim tellus. Sed velit ligula, condimentum vitae arcu vitae, gravida maximus neque. Praesent auctor lorem a ipsum consectetur, eu lobortis urna vehicula. Etiam enim quam, ullamcorper in ante et, ornare laoreet eros. Ut massa lacus, iaculis in nulla eu, dictum sodales libero. Morbi vitae diam tempor, dapibus libero non, condimentum nunc. Pellentesque volutpat blandit dui. Aliquam erat volutpat. Aliquam erat volutpat. Morbi tincidunt, sem quis suscipit faucibus, orci elit semper enim, non malesuada erat nulla id neque. Nunc sodales eleifend lectus, sed malesuada arcu suscipit eu.",
+    "bannerUrl": "https://images.unsplash.com/photo-1582920980795-2f97b0834c58?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    "deliveryEstimate": "30-45 mins"
+  },
+  {
+    "name": "Superb Taste Place",
+    "address": "106 Grendon Road, Polesworth",
+    "postCode": "B78 1NR",
+    "phoneNumber": "01827 363124",
+    "email": "uraeus@aol.com",
+    "rating": 4.6,
+    "ratings": 1711,
+    "description": "Pellentesque et metus a dolor imperdiet rhoncus. Integer accumsan justo purus, quis finibus libero lobortis in. Nullam commodo lectus nibh, vel condimentum ex porttitor eu. Integer ac tortor vitae tellus molestie gravida in sed dui. Curabitur viverra enim ac augue suscipit, non pretium orci ornare. Nam pharetra sem nec ligula dignissim efficitur. Sed arcu leo, aliquam eu pellentesque iaculis, porttitor et augue. Vivamus in nibh ut justo eleifend vehicula vitae ut ex. Cras a condimentum justo, vitae efficitur justo. Nam porttitor feugiat nulla non suscipit. Aliquam at lorem nisi. Proin dapibus tortor eros, a elementum sem cursus ut. Praesent ultrices, risus nec tempus auctor, sapien dui dapibus nunc, sed ornare metus sapien at mauris.",
+    "bannerUrl": "https://images.unsplash.com/photo-1592861956120-e524fc739696?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    "deliveryEstimate": "30-45 mins"
+  },
+  {
+    "name": "Enchanted Escape Roadhouse",
+    "address": "62 Lakeside Road, West Bromwich",
+    "postCode": "B70 0PW",
+    "phoneNumber": "01384 256682",
+    "email": "seemant@icloud.com",
+    "rating": 4.5,
+    "ratings": 434,
+    "description": "Vestibulum consectetur purus quam, ac efficitur tellus pulvinar a. Nam pharetra nisi quam, nec fermentum augue euismod vitae. Sed sodales elit diam, vitae mollis massa fermentum nec. Curabitur mauris elit, suscipit ac rhoncus in, volutpat placerat quam. Mauris viverra lorem a porta iaculis. Suspendisse et rhoncus orci. Aliquam lacinia velit vel tortor vestibulum, eu accumsan orci semper. Donec pellentesque dolor sit amet maximus luctus. Integer consectetur lacinia sapien, at accumsan arcu sagittis et. Phasellus nec enim laoreet, commodo erat ut, porta velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie libero quis quam finibus, in vestibulum ex consequat. Quisque iaculis felis ac turpis cursus commodo. Donec a nibh nibh.",
+    "bannerUrl": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80",
+    "deliveryEstimate": "30-45 mins"
+  },
+  {
+    "name": "Dandy Zebra Pub",
+    "address": "4 Witham Close, Sutton Coldfield",
+    "postCode": "B76 2BE",
+    "phoneNumber": "01675 445840",
+    "email": "seano@gmail.com",
+    "rating": 3.5,
+    "ratings": 3022,
+    "description": "Cras vitae pharetra orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean dapibus dolor ac malesuada aliquet. Morbi fermentum fermentum dui, et dictum lectus semper sit amet. Donec quis eros at ligula dapibus ornare et in lectus. Pellentesque dictum dictum imperdiet. Vestibulum porttitor gravida ex tincidunt fringilla. Maecenas nec tristique erat. Aliquam pretium augue vel velit eleifend, id viverra ipsum mollis. Morbi imperdiet ex leo, sed sodales leo efficitur non. Fusce nec mi mauris. Etiam at dapibus nibh.",
+    "bannerUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+    "deliveryEstimate": "30-45 mins"
+  },
+  {
+    "name": "Velvet Lion Supper Club",
+    "address": "141 St Saviours Road, Saltley",
+    "postCode": "B8 1HW",
+    "phoneNumber": "0121 338 4076",
+    "email": "magusnet@yahoo.com",
+    "rating": 2.8,
+    "ratings": 1632,
+    "description": "Etiam luctus dui condimentum cursus aliquam. Etiam gravida ex tellus, vel facilisis nunc elementum in. Maecenas id vehicula eros. Ut vitae mauris ipsum. In dolor sapien, tincidunt pulvinar diam eu, aliquam commodo sapien. Fusce sed sapien consequat, rhoncus risus eu, vestibulum est. Mauris scelerisque porttitor lorem, a consectetur tortor rhoncus sed. Nunc dapibus fringilla varius. Proin eget libero posuere quam sollicitudin aliquet et eu elit. Nunc rutrum iaculis risus, at tristique odio ornare non. Vivamus quis purus varius, gravida lectus ac, malesuada velit. Etiam a odio ac arcu euismod semper quis eget lectus.",
+    "bannerUrl": "https://images.unsplash.com/photo-1546195643-70f48f9c5b87?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    "deliveryEstimate": "30-45 mins"
+  },
+  {
+    "name": "Vine Eatery",
+    "address": "70 Parkeston Crescent, Birmingham",
+    "postCode": "B44 0PD",
+    "phoneNumber": "0121 673 4846",
+    "email": "unreal@msn.com",
+    "rating": 5,
+    "ratings": 2207,
+    "description": "Donec rhoncus lorem nec nisl tincidunt, non dapibus nisi varius. Praesent dictum mollis tempor. Phasellus lacus metus, mollis at lacus vel, imperdiet malesuada dolor. Sed porttitor porta eros vitae vehicula. Vestibulum eget semper justo. Curabitur quis enim vel nisl congue venenatis. Morbi dapibus faucibus urna cursus pharetra. Cras purus justo, congue quis mi eget, dapibus maximus turpis. Etiam rutrum turpis quis diam porta tincidunt. Nulla ullamcorper dapibus fermentum. Maecenas vel fringilla urna. Suspendisse aliquam velit a ante venenatis ultricies. Etiam rutrum lacus et nisl volutpat congue. Pellentesque quis libero eu mauris suscipit congue. Donec ultricies enim eleifend mauris iaculis viverra.",
+    "bannerUrl": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    "deliveryEstimate": "30-45 mins"
+  },
+  {
+    "name": "Dandy Mallard Place",
+    "address": "29 Tunnel Road, West Bromwich",
+    "postCode": "B70 0RH",
+    "phoneNumber": "01384 565042",
+    "email": "starstuff@yahoo.com",
+    "rating": 4.9,
+    "ratings": 4547,
+    "description": "Vestibulum sed finibus lectus. Donec massa enim, molestie a diam quis, facilisis gravida nibh. Mauris auctor rutrum odio, sit amet facilisis massa interdum ac. Cras nibh lacus, euismod vel ornare id, feugiat in neque. Cras convallis finibus orci, a pretium massa viverra suscipit. Proin vehicula velit ante. In eget elementum urna. Nam ultricies, nunc nec sollicitudin viverra, enim orci condimentum neque, ac egestas felis nisi non libero.",
+    "bannerUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    "deliveryEstimate": "30-45 mins"
+  },
+  {
+    "name": "Shining Fig Kitchen",
+    "address": "Unit 5B Gagarin, Tamworth",
+    "postCode": "B79 7GN",
+    "phoneNumber": "01827 448510",
+    "email": "jshearer@icloud.com",
+    "rating": 5,
+    "ratings": 2180,
+    "description": "Duis mattis odio non consectetur mollis. Sed sodales dui aliquam diam euismod, sit amet consectetur ante vehicula. Fusce pellentesque gravida tempor. Quisque et blandit nulla, id sodales nulla. Nulla sollicitudin metus eget mi vulputate sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ornare feugiat pulvinar. Aliquam sed porta tortor. Ut vitae auctor urna, sit amet iaculis risus. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "bannerUrl": "https://images.unsplash.com/photo-1579648207097-edbc62b94930?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80",
+    "deliveryEstimate": "30-45 mins"
+  }
+]

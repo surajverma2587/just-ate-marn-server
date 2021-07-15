@@ -1,0 +1,30 @@
+{
+  "name": "just-ate-marn-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "seed": "node src/data/seed.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajverma2587/just-ate-marn-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajverma2587/just-ate-marn-server/issues"
+  },
+  "homepage": "https://github.com/surajverma2587/just-ate-marn-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "apollo-server": "^3.0.0",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.2"
+  }
+}
