@@ -1,8 +1,12 @@
 const { Restaurant } = require("../models");
 
-const restaurants = async () => {
-  const restaurants = await Restaurant.find({});
-  return restaurants;
+const restaurants = async (_, { sortBy, top }) => {
+  if (sortBy === "rating" || sortBy === "ratings") {
+    return await Restaurant.find({})
+      .sort({ [sortBy]: -1 })
+      .limit(top);
+  }
+  return await Restaurant.find({}).limit(top);
 };
 
 module.exports = restaurants;

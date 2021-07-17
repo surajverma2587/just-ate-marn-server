@@ -31,7 +31,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    restaurants: [Restaurant]
+    restaurants(sortBy: String, top: Int): [Restaurant]
     restaurant(id: ID!): Restaurant
   }
 `;
