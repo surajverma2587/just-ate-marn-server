@@ -2,6 +2,7 @@ const restaurants = require("./restaurants");
 const restaurant = require("./restaurant");
 const createMenuItem = require("./createMenuItem");
 const updateMenuItem = require("./updateMenuItem");
+const createRestaurant = require("./createRestaurant");
 
 const resolvers = {
   Query: {
@@ -11,6 +12,7 @@ const resolvers = {
   Mutation: {
     createMenuItem,
     updateMenuItem,
+    createRestaurant,
   },
 };
 

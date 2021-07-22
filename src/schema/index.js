@@ -55,9 +55,21 @@ const typeDefs = gql`
     imageUrl: String!
   }
 
+  input CreateRestaurantInput {
+    name: String!
+    address: String!
+    postCode: String!
+    phoneNumber: String!
+    email: String
+    description: String
+    bannerUrl: String!
+    deliveryEstimate: String
+  }
+
   type Mutation {
     createMenuItem(input: CreateMenuItemInput!): MenuItem!
     updateMenuItem(input: UpdateMenuItemInput!): MenuItem!
+    createRestaurant(input: CreateRestaurantInput!): Restaurant!
   }
 `;
 
