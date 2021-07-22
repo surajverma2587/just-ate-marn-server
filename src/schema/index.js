@@ -10,6 +10,7 @@ const typeDefs = gql`
   }
 
   type Menu {
+    id: ID!
     drinks: [MenuItem]
     meals: [MenuItem]
     desserts: [MenuItem]
@@ -33,6 +34,30 @@ const typeDefs = gql`
   type Query {
     restaurants(sortBy: String, top: Int): [Restaurant]
     restaurant(id: ID!): Restaurant
+  }
+
+  input CreateMenuItemInput {
+    menuId: ID!
+    type: String!
+    name: String!
+    price: Float!
+    description: String
+    imageUrl: String
+  }
+
+  input UpdateMenuItemInput {
+    menuItemId: ID!
+    menuId: ID!
+    type: String!
+    name: String!
+    price: Float!
+    description: String
+    imageUrl: String
+  }
+
+  type Mutation {
+    createMenuItem(input: CreateMenuItemInput!): MenuItem!
+    updateMenuItem(input: UpdateMenuItemInput!): MenuItem!
   }
 `;
 
