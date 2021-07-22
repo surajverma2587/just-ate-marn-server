@@ -8,8 +8,6 @@ const updateMenuItem = async (_, { input }) => {
 
   const index = menu[type].findIndex((each) => each.id === menuItemId); // 1
 
-  console.log(menu[type]);
-
   menu[type][index] = {
     ...menu[type][index],
     name,
@@ -18,11 +16,7 @@ const updateMenuItem = async (_, { input }) => {
     imageUrl,
   };
 
-  console.log(menu[type][index]);
-
   await menu.save();
-
-  console.log(menu[type][index]);
 
   return menu[type][index];
 };

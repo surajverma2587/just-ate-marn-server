@@ -51,8 +51,8 @@ const typeDefs = gql`
     type: String!
     name: String!
     price: Float!
-    description: String
-    imageUrl: String
+    description: String!
+    imageUrl: String!
   }
 
   type Mutation {
