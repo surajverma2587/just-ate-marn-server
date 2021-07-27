@@ -3,6 +3,8 @@ const restaurant = require("./restaurant");
 const createMenuItem = require("./createMenuItem");
 const updateMenuItem = require("./updateMenuItem");
 const createRestaurant = require("./createRestaurant");
+const login = require("./login");
+const signUp = require("./signUp");
 
 const resolvers = {
   Query: {
@@ -13,6 +15,8 @@ const resolvers = {
     createMenuItem,
     updateMenuItem,
     createRestaurant,
+    login,
+    signUp,
   },
 };
 

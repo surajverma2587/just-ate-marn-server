@@ -31,6 +31,16 @@ const typeDefs = gql`
     menu: Menu
   }
 
+  type User {
+    id: ID!
+    email: String!
+  }
+
+  type Auth {
+    token: ID!
+    user: User!
+  }
+
   type Query {
     restaurants(sortBy: String, top: Int): [Restaurant]
     restaurant(id: ID!): Restaurant
@@ -66,10 +76,17 @@ const typeDefs = gql`
     deliveryEstimate: String
   }
 
+  input LoginInput {
+    email: String!
+    password: String!
+  }
+
   type Mutation {
     createMenuItem(input: CreateMenuItemInput!): MenuItem!
     updateMenuItem(input: UpdateMenuItemInput!): MenuItem!
     createRestaurant(input: CreateRestaurantInput!): Restaurant!
+    login(input: LoginInput): Auth!
+    signUp(input: LoginInput): Auth!
   }
 `;
 
