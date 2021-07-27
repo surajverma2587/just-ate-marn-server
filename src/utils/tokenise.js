@@ -7,4 +7,8 @@ const tokenise = (payload) => {
   return jwt.sign(payload, JWT_SECRET, { expiresIn: EXP_TIME });
 };
 
-module.exports = tokenise;
+const verifyToken = (token) => {
+  return jwt.verify(token, JWT_SECRET, { maxAge: EXP_TIME });
+};
+
+module.exports = { tokenise, verifyToken };

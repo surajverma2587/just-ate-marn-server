@@ -48,6 +48,10 @@ const schema = {
     type: Schema.Types.ObjectId,
     ref: "Menu",
   },
+  user: {
+    type: Schema.Types.ObjectId,
+    ref: "User",
+  },
 };
 
 const restaurantSchema = new Schema(schema);
