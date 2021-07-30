@@ -13,8 +13,7 @@ const context = ({ req }) => {
   }
 
   try {
-    const data = verifyToken(token);
-    req.user = data;
+    req.user = verifyToken(token);
   } catch {
     throw AuthenticationError("Invalid token");
   }
