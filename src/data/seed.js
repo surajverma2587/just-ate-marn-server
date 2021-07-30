@@ -12,7 +12,9 @@ db.once("open", async () => {
 
     console.log("Collections deleted!!!");
 
-    await User.insertMany(users);
+    await User.create(users[0]);
+    await User.create(users[1]);
+
     console.log("Users seeded successfully!!!");
 
     await Menu.insertMany(menus);
