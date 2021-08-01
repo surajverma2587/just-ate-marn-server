@@ -32,7 +32,7 @@ const createRestaurant = async (_, { input }, context) => {
       description,
       bannerUrl,
       deliveryEstimate,
-      menu: menu.id,
+      menu,
       user: context.user.id,
     });
   } else {
