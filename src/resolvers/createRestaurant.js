@@ -1,5 +1,4 @@
 const { AuthenticationError } = require("apollo-server");
-const mongoose = require("mongoose");
 
 const { Restaurant, Menu } = require("../models");
 
@@ -33,7 +32,7 @@ const createRestaurant = async (_, { input }, context) => {
       description,
       bannerUrl,
       deliveryEstimate,
-      menu,
+      menu: menu.id,
       user: context.user.id,
     });
   } else {

@@ -1,9 +1,13 @@
 [
   {
+    "firstName": "Bob",
+    "lastName": "Smith",
     "email": "bobsmith@email.com",
     "password": "password123"
   },
   {
+    "firstName": "Alice",
+    "lastName": "Green",
     "email": "alicegreen@email.com",
     "password": "password456"
   }

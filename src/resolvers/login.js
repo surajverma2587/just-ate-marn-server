@@ -18,7 +18,12 @@ const login = async (_, { input }) => {
     throw new AuthenticationError("Incorrect email or password");
   }
 
-  const token = tokenise({ id: user.id, email: user.email });
+  const token = tokenise({
+    id: user.id,
+    email: user.email,
+    firstName: user.firstName,
+    lastName: user.lastName,
+  });
 
   return { token, user };
 };

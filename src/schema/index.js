@@ -34,6 +34,8 @@ const typeDefs = gql`
   type User {
     id: ID!
     email: String!
+    firstName: String!
+    lastName: String!
   }
 
   type Auth {
@@ -81,12 +83,19 @@ const typeDefs = gql`
     password: String!
   }
 
+  input SignUpInput {
+    firstName: String!
+    lastName: String!
+    email: String!
+    password: String!
+  }
+
   type Mutation {
     createMenuItem(input: CreateMenuItemInput!): MenuItem!
     updateMenuItem(input: UpdateMenuItemInput!): MenuItem!
     createRestaurant(input: CreateRestaurantInput!): Restaurant!
     login(input: LoginInput): Auth!
-    signUp(input: LoginInput): Auth!
+    signUp(input: SignUpInput): Auth!
   }
 `;
 
